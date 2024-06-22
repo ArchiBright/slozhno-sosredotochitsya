@@ -17,6 +17,46 @@
   background-image: url(../images/cover-image-dark.png);
 }
 
+.header_rec-sign {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: var(--background_font-dark);
+  position: relative;
+  justify-self: flex-end;
+  padding-right: 35px; /* Adjust to make space for the dot and angle */
+}
+
+.header_rec-sign::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0; 
+  left: 40px;
+  width: 9px;
+  height: 9px;
+  box-shadow: 0 0 4px var(--background_font-dark);
+  border-radius: 50%;
+  background-color: var(--background_font-dark);
+  transform: translateY(-50%);
+}
+
+.header_rec-sign::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 35px; 
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid var(--background_font-dark);
+  border-right: 2px solid var(--background_font-dark);
+  transform: translateY(-50%);
+}
+
+
+
 .header_heading {
   color: #DB00FF;
   text-shadow: 4px 4px 0 #FF0070;
@@ -24,8 +64,9 @@
   font-weight: 700;
   line-height: 95.7px;
   text-align: left;
-
 }
+
+
 
 .decorated-zone {
 
