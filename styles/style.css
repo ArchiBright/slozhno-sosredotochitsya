@@ -1,5 +1,111 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+@import url(./variables.css);
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  min-inline-size: 375px;
+  margin: 0;
+  font-family: var(--main-font, sans-ferif);
+  color: var(--);
+  /* color: var(--font-bg-dark); */
+  /* font-family: var(--main-font, sans-ferif); */
+  background-color: var(--background_colour-dark);
+}
+
+.header {
+  display: grid;
+  grid-auto-flow: row;
+  background-image: url(../images/cover-image-dark.png);
+}
+
+.header_heading {
+  color: #DB00FF;
+  text-shadow: 4px 4px 0 #FF0070;
+  font-size: 116px;
+  font-weight: 700;
+  line-height: 95.7px;
+  text-align: left;
+
+}
+
+.decorated-zone {
+
+}
+
+.header__theme-menu {
+
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header__theme-menu-item {
+  align-self: self-end;
+  margin-right: 10px;
+}
+
+.header__theme-menu-button {
+  width: 70px;
+  height: 26px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  background: none;
+  color: var(--background_font-dark);
+  border: none;
+  text-transform: lowercase;
+}
+
+.header__theme-menu-button_active {
+  border: solid 1px var(--background_font-dark)
+}
+
+.header__theme-menu-button_type_light {
+
+}
+
+.header__theme-menu-button_type_auto {
+
+}
+
+.header__theme-menu-button_type_dark {
+
+}
+
+.header_title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  text-align: left;
+  background-color: var(--background_font-dark);
+}
+
+.section_title {
+  color: var(--background_font-dark);
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  text-align: left;
+}
+
+.section_article {
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: left;
+  color: white;
+}
+
+.section_tip_title {
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: left;
+  background-color: var(--background_font-dark);
 }
