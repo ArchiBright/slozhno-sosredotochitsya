@@ -109,3 +109,17 @@
   text-align: left;
   background-color: var(--background_font-dark);
 }
+
+.section_gallery {
+  min-width: 355px;
+}
+
+
+
+.section_image {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+}
