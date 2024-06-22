@@ -83,6 +83,15 @@
   background-color: var(--background_font-dark);
 }
 
+main {
+}
+
+ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
 .section_title {
   color: var(--background_font-dark);
   font-family: IBM Plex Mono;
