@@ -111,6 +111,8 @@
 }
 
 .section_gallery {
+  display: grid;
+  gap: 10px;
   min-width: 355px;
 }
 
