@@ -9,6 +9,7 @@
   /* color: var(--font-bg-dark); */
   /* font-family: var(--main-font, sans-ferif); */
   background-color: var(--background_colour-dark);
+  padding: 0 10px;
 }
 
 .header {
@@ -129,9 +130,6 @@
   line-height: 23.4px;
   text-align: left;
   background-color: var(--background_font-dark);
-}
-
-main {
 }
 
 ul {
