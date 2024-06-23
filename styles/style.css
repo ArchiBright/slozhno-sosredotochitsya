@@ -13,7 +13,6 @@
   grid-auto-flow: row;
   background-image: url(../images/cover-image-dark.png);
   margin-bottom: 40px;
-  width: 375px;
 }
 
 .header__rec-sign {
@@ -128,7 +127,6 @@ ul {
 
 section {
   margin-bottom: 50px;
-  width: 375px;
 }
 
 .section_title {
@@ -201,5 +199,4 @@ section {
 .footer {
   display: grid;
   height: 668px;
-  width: 375px;
 }
