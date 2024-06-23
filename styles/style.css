@@ -218,6 +218,11 @@ section {
 .footer {
   display: grid;
   height: 668px;
+  background-color: var(--background_colour-dark);
+}
+
+.footer__heading {
+  justify-self: center;
 }
 
 @media (width >= 768px) {
