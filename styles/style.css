@@ -1,17 +1,28 @@
 @import url(./variables.css);
+
 .page {
   min-inline-size: 375px;
   margin: 0;
   font-family: var(--main-font, sans-ferif);
   color: var(--);
-  background-color: var(--background_colour-dark);
   padding: 0 10px;
+  background-image: url(../images/cover-image-dark.png);
+  background-attachment: fixed;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
+
+.test__section {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .header {
   display: grid;
   grid-auto-flow: row;
-  background-image: url(../images/cover-image-dark.png);
   margin-bottom: 40px;
 }
 
@@ -77,7 +88,7 @@
 .heading_dark-theme {
   color: #DB00FF;
   text-shadow: 4px 4px 0 #FF0070;
-  font-size: 116px;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
   line-height: 95.7px;
   text-align: left;
@@ -118,7 +129,9 @@
   line-height: 23.4px;
   text-align: left;
   background-color: var(--background_font-dark);
-  margin: 0 0 40px;
+  margin: 0 10px 40px;
+  max-width: 364px;
+  justify-self: flex-end;
 }
 
 ul {
@@ -127,6 +140,7 @@ ul {
 
 section {
   margin-bottom: 50px;
+  background-color: var(--background_colour-dark);
 }
 
 .section_title {
@@ -156,12 +170,12 @@ section {
   color: #FF9598;
   margin-bottom: 20px;
 }
-.section_link {
+.section_article a {
   text-decoration: underline;
   text-shadow: 3px 3px 4px #FF8DCB;
 }
 
-.section_tip_link {
+.section_tip_title a {
   text-decoration: none;
   text-shadow: 3px 3px 4px #FF8DCB;
 }
@@ -193,10 +207,16 @@ section {
 
 
 .section_image {
-  max-width: 375px;
+  width: 100%;
 }
 
 .footer {
   display: grid;
   height: 668px;
+}
+
+@media (width >= 1024px) {
+  .header_title {
+    max-width: 491px;
+  }
 }
