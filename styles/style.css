@@ -1,13 +1,9 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 @import url(./variables.css);
 .page {
   min-inline-size: 375px;
   margin: 0;
   font-family: var(--main-font, sans-ferif);
   color: var(--);
-  /* color: var(--font-bg-dark); */
-  /* font-family: var(--main-font, sans-ferif); */
   background-color: var(--background_colour-dark);
   padding: 0 10px;
 }
@@ -17,9 +13,10 @@
   grid-auto-flow: row;
   background-image: url(../images/cover-image-dark.png);
   margin-bottom: 40px;
+  width: 375px;
 }
 
-.header_rec-sign {
+.header__rec-sign {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 18px;
   font-weight: 400;
@@ -28,10 +25,10 @@
   color: var(--background_font-dark);
   position: relative;
   justify-self: flex-end;
-  padding-right: 35px; /* Adjust to make space for the dot and angle */
+  padding-right: 35px; 
 }
 
-.header_rec-sign::after {
+.header__rec-sign::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -45,7 +42,7 @@
   transform: translateY(-50%);
 }
 
-.header_rec-sign::before {
+.header__rec-sign::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -57,7 +54,15 @@
   transform: translateY(-50%);
 }
 
-.header_border-bottom {
+.border-top {
+  width: 20px;
+  height: 20px;
+  border-top: 1px solid var(--background_font-dark);
+  border-right: 1px solid var(--background_font-dark);
+  justify-self: flex-end;
+}
+
+.border-bottom {
   width: 20px;
   height: 20px;
   border-bottom: 1px solid var(--background_font-dark);
@@ -66,31 +71,24 @@
 
 
 
-.header_heading {
+.header__heading {
+  margin: 65px 0 55px;
+}
+
+.heading_dark-theme {
   color: #DB00FF;
   text-shadow: 4px 4px 0 #FF0070;
   font-size: 116px;
   font-weight: 700;
   line-height: 95.7px;
   text-align: left;
-  margin: 65px 0 55px;
-}
-
-
-
-.decorated-zone {
-
-}
-
-.header__theme-menu {
-
 }
 
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin: 35px 0 0;
+  margin: 39px 0 0;
 }
 
 .header__theme-menu-item {
@@ -115,18 +113,6 @@
   border: solid 1px var(--background_font-dark)
 }
 
-.header__theme-menu-button_type_light {
-
-}
-
-.header__theme-menu-button_type_auto {
-
-}
-
-.header__theme-menu-button_type_dark {
-
-}
-
 .header_title {
   font-size: 18px;
   font-weight: 700;
@@ -140,6 +126,11 @@ ul {
   padding-left: 0;
 }
 
+section {
+  margin-bottom: 50px;
+  width: 375px;
+}
+
 .section_title {
   color: var(--background_font-dark);
   font-family: IBM Plex Mono;
@@ -149,13 +140,32 @@ ul {
   text-align: left;
 }
 
+.section_article_title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  text-align: left;
+  background-color: var(--background_font-dark);
+  margin: 10px 0;
+}
+
 .section_article {
   font-family: IBM Plex Mono;
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
   text-align: left;
-  color: white;
+  color: #FF9598;
+  margin-bottom: 20px;
+}
+.section_link {
+  text-decoration: underline;
+  text-shadow: 3px 3px 4px #FF8DCB;
+}
+
+.section_tip_link {
+  text-decoration: none;
+  text-shadow: 3px 3px 4px #FF8DCB;
 }
 
 .section_tip_title {
@@ -165,6 +175,7 @@ ul {
   line-height: 23.4px;
   text-align: left;
   background-color: var(--background_font-dark);
+  margin: 10px 0;
 }
 
 .section_gallery {
@@ -172,8 +183,23 @@ ul {
   gap: 10px;
 }
 
+.section_gallery-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  text-align: left;
+  background-color: var(--background_font-dark);
+  margin-bottom: 10px;
+}
+
 
 
 .section_image {
   max-width: 375px;
+}
+
+.footer {
+  display: grid;
+  height: 668px;
+  width: 375px;
 }
