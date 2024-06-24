@@ -28,20 +28,11 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  color: var(--background_font-bright);
-  background-color: var(--background-colour);
-
-  --main-font: 'IBM Plex Mono';
-  --article-font-color: #F1B2CE;
-  --background_font-bright: #FF8DCB;
-  --background-colour: #FFF1F7;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --main-font: 'IBM Plex Mono';
-    --article-font-color: #F1B2CE;
-    --background_font-bright: #FF8DCB;
-    --backgroung-colour: #FFF1F7;
-  }
+  background-image: url(../images/cover-image-light.png);
+  --header-and-footer-color: #FFC26;
+  --accent-color: #FF8DCB;
+  --dark-text: #353430;
+  --main-text: #353430;
+  --main-title: #353430;
+  --button-color: #353430;
 }

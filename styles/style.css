@@ -17,6 +17,7 @@ button:focus {
 
 main {
   background-color: var(--background-colour);
+  /* background-color: black; */
 }
 
 .header {
@@ -143,7 +144,6 @@ ul {
 
 section {
   margin-bottom: 50px;
-  background-color: var(--background-colour-dark);
 }
 
 .section_title {

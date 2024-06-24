@@ -5,17 +5,13 @@
 */
 @import url(./variables.css);
 
-:root {
-  --article-font-color: #F1B2CE;
-  --background_font-dark: #FF0070;
-  --background-colour-dark: #000028;
-}
 
 @media (prefers-color-scheme: dark) {
   :root {
     --article-font-color: #F1B2CE;
     --background_font-dark: #FF0070;
     --background-colour: #000028;
+    --background-colour-dark: #000028;
   }
 }
 
@@ -24,8 +20,11 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  color: var(--background_font-dark);
-  background-color: var(--background-colour);
+  --header-footer-title: #DB00FF;
+  --dark-text: #000028;
+  --main-text: #F1B2CE;
+  --main-title:#FF0070;
+  --button-color:#FF0070;
 }
 
 
