@@ -16,7 +16,7 @@ button:focus {
 }
 
 main {
-  background-color: var(--background_colour-dark);
+  background-color: var(--background-colour);
 }
 
 .header {
@@ -34,7 +34,7 @@ main {
   color: var(--background_font-dark);
   position: relative;
   justify-self: flex-end;
-  padding-right: 35px; 
+  padding-right: 30px; 
 }
 
 .header__rec-sign::after {
@@ -143,7 +143,7 @@ ul {
 
 section {
   margin-bottom: 50px;
-  background-color: var(--background_colour-dark);
+  background-color: var(--background-colour-dark);
 }
 
 .section_title {
@@ -161,7 +161,7 @@ section {
   line-height: 23.4px;
   text-align: left;
   background-color: var(--background_font-dark);
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .section_article {
@@ -175,12 +175,12 @@ section {
 }
 .section_article a {
   text-decoration: underline;
-  text-shadow: 3px 3px 4px #FF8DCB;
+  text-shadow: 0px 4px 4px #FF8DCB;
 }
 
 .section_tip_title a {
   text-decoration: none;
-  text-shadow: 3px 3px 4px #FF8DCB;
+  text-shadow: 0px 4px 4px #FF8DCB;
 }
 
 .section_tip_title {
@@ -204,7 +204,7 @@ section {
   line-height: 23.4px;
   text-align: left;
   background-color: var(--background_font-dark);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -218,7 +218,7 @@ section {
 .footer {
   display: grid;
   height: 668px;
-  background-color: var(--background_colour-dark);
+  background-color: var(--background-colour-dark);
 }
 
 .footer__heading {
