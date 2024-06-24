@@ -1,8 +1,6 @@
 :root {
   --main-font: 'IBM Plex Mono';
   --article-font-color: #F1B2CE;
-  --background_font-dark: #FF0070;
-  --background_font-bright: #FF8DCB;
+  --background_font: #FF0070;
   --background-colour: #000028;
-  /* --backgroung-colour: #FFF1F7; */
 }
