@@ -80,11 +80,11 @@ main {
 
 
 
-.header__heading {
+.no-focus_place_header {
   margin: 65px 0 55px;
 }
 
-.heading_dark-theme {
+.no-focus {
   color:var(--header-footer-title);
   text-shadow: 4px 4px 0 #FF0070;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -122,7 +122,7 @@ main {
   border: solid 1px var(--button-color)
 }
 
-.header_title {
+.header__title {
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
@@ -145,7 +145,7 @@ section {
   margin-bottom: 50px;
 }
 
-.section_title {
+.section__title {
   color: var(--main-title);
   font-family: IBM Plex Mono;
   font-size: 18px;
@@ -154,7 +154,7 @@ section {
   text-align: left;
 }
 
-.section_article_title {
+.section__article-title {
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
@@ -220,7 +220,7 @@ section {
   background-color: var(--background-colour);
 }
 
-.footer__heading {
+.no-focus_place_footer {
   justify-self: center;
 }
 
@@ -228,11 +228,13 @@ section {
   .section-one {
     display: flex;
     flex-direction: row;
+    gap: 20px;
   }
   
   .section-three {
     display: flex;
     flex-direction: row;
+    gap: 20px;
   }
 
   .section__gallery {
