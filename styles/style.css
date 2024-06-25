@@ -6,7 +6,7 @@
   font-family: var(--main-font, sans-ferif);
   color: var(--);
   padding: 0 10px;
-  background-image: url(../images/cover-image-dark.png);
+  background-image: url(../images/cover-image-light.png);
   background-attachment: fixed;
 }
 
@@ -17,7 +17,6 @@ button:focus {
 
 main {
   background-color: var(--background-colour);
-  /* background-color: black; */
 }
 
 .header {
@@ -32,8 +31,8 @@ main {
   font-weight: 400;
   line-height: 25px;
   text-transform: uppercase;
-  color: var(--background_font-dark);
-  position: relative;
+  color: var(--background-font);
+  position: absolute;
   justify-self: flex-end;
   padding-right: 30px; 
 }
@@ -46,9 +45,9 @@ main {
   left: 40px;
   width: 9px;
   height: 9px;
-  box-shadow: 0 0 4px var(--background_font-dark);
+  box-shadow: 0 0 4px var(--background-font);
   border-radius: 50%;
-  background-color: var(--background_font-dark);
+  background-color: var(--background-font);
   transform: translateY(-50%);
 }
 
@@ -59,24 +58,24 @@ main {
   left: 35px; 
   width: 20px;
   height: 20px;
-  border-top: 1px solid var(--background_font-dark);
-  border-right: 1px solid var(--background_font-dark);
+  border-top: 1px solid var(--background-font);
+  border-right: 1px solid var(--background-font);
   transform: translateY(-50%);
 }
 
 .border-top {
   width: 20px;
   height: 20px;
-  border-top: 1px solid var(--background_font-dark);
-  border-right: 1px solid var(--background_font-dark);
+  border-top: 1px solid var(--background-font);
+  border-right: 1px solid var(--background-font);
   justify-self: flex-end;
 }
 
 .border-bottom {
   width: 20px;
   height: 20px;
-  border-bottom: 1px solid var(--background_font-dark);
-  border-left: 1px solid var(--background_font-dark);
+  border-bottom: 1px solid var(--background-font);
+  border-left: 1px solid var(--background-font);
 }
 
 
@@ -86,7 +85,7 @@ main {
 }
 
 .heading_dark-theme {
-  color: #DB00FF;
+  color:var(--header-footer-title);
   text-shadow: 4px 4px 0 #FF0070;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
@@ -114,13 +113,13 @@ main {
   line-height: 18px;
   text-align: center;
   background: none;
-  color: var(--background_font-dark);
+  color: var(--background-font);
   border: none;
   text-transform: lowercase;
 }
 
 .header__theme-menu-button_active {
-  border: solid 1px var(--background_font-dark)
+  border: solid 1px var(--background-font)
 }
 
 .header_title {
@@ -128,7 +127,7 @@ main {
   font-weight: 700;
   line-height: 23.4px;
   text-align: left;
-  background-color: var(--background_font-dark);
+  background-color: var(--background-font);
   margin: 0 10px 40px;
   max-width: 364px;
   justify-self: flex-end;
@@ -147,7 +146,7 @@ section {
 }
 
 .section_title {
-  color: var(--background_font-dark);
+  color: var(--main-text-color);
   font-family: IBM Plex Mono;
   font-size: 18px;
   font-weight: 700;
@@ -160,7 +159,7 @@ section {
   font-weight: 700;
   line-height: 23.4px;
   text-align: left;
-  background-color: var(--background_font-dark);
+  background-color: var(--background-font);
   margin: 20px 0;
 }
 
@@ -170,7 +169,7 @@ section {
   font-weight: 400;
   line-height: 23.4px;
   text-align: left;
-  color: var(--article-font-color);
+  color: var(--main-text-color);
   margin-bottom: 20px;
 }
 .section_article a {
@@ -189,7 +188,7 @@ section {
   font-weight: 400;
   line-height: 23.4px;
   text-align: left;
-  background-color: var(--background_font-dark);
+  background-color: var(--background-font);
   margin: 10px 0;
 }
 
@@ -203,7 +202,7 @@ section {
   font-weight: 700;
   line-height: 23.4px;
   text-align: left;
-  background-color: var(--background_font-dark);
+  background-color: var(--background-font);
   margin-bottom: 20px;
 }
 
@@ -218,7 +217,7 @@ section {
 .footer {
   display: grid;
   height: 668px;
-  background-color: var(--background-colour-dark);
+  background-color: var(--background-colour);
 }
 
 .footer__heading {
@@ -281,5 +280,11 @@ section {
     flex-direction: row;
     list-style-type: none;
     gap: 20px;
+  }
+
+  .header__theme-menu-list {
+    margin: 0;
+    flex-direction: row;
+    justify-content: center;
   }
 }

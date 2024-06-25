@@ -15,6 +15,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    --header-footer-title: #FFC2E6;
     --main-font: 'IBM Plex Mono';
     --article-font-color: #F1B2CE;
     --background_font-bright: #FF8DCB;
@@ -29,10 +30,14 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   background-image: url(../images/cover-image-light.png);
-  --header-and-footer-color: #FFC26;
+  --header-footer-title: #FFC2E6;
   --accent-color: #FF8DCB;
   --dark-text: #353430;
-  --main-text: #353430;
+  --main-text-color: #353430;
   --main-title: #353430;
   --button-color: #353430;
+  --background-font: #FF8DCB;
+  .header__rec-sign {
+    visibility: hidden;
+  }
 }
