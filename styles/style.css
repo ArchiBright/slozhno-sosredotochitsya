@@ -66,16 +66,16 @@ main {
 .border-top {
   width: 20px;
   height: 20px;
-  border-top: 1px solid var(--background-font);
-  border-right: 1px solid var(--background-font);
+  border-top: 1px solid var(--button-color);
+  border-right: 1px solid var(--button-color);
   justify-self: flex-end;
 }
 
 .border-bottom {
   width: 20px;
   height: 20px;
-  border-bottom: 1px solid var(--background-font);
-  border-left: 1px solid var(--background-font);
+  border-bottom: 1px solid var(--button-color);
+  border-left: 1px solid var(--button-color);
 }
 
 
@@ -113,13 +113,13 @@ main {
   line-height: 18px;
   text-align: center;
   background: none;
-  color: var(--background-font);
+  color: var(--button-color);
   border: none;
   text-transform: lowercase;
 }
 
 .header__theme-menu-button_active {
-  border: solid 1px var(--background-font)
+  border: solid 1px var(--button-color)
 }
 
 .header_title {
@@ -146,7 +146,7 @@ section {
 }
 
 .section_title {
-  color: var(--main-text-color);
+  color: var(--main-title);
   font-family: IBM Plex Mono;
   font-size: 18px;
   font-weight: 700;
