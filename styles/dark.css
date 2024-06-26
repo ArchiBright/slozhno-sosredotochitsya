@@ -6,14 +6,14 @@
 @import url(./variables.css);
 
 
-/* :root {
+:root {
   --main-font: 'IBM Plex Mono';
   --article-font-color: #F1B2CE;
   --background_font-bright: #FF8DCB;
   --background-colour: #FFF1F7;
-} */
+}
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --main-font: 'IBM Plex Mono';
     --article-font-color: #F1B2CE;
@@ -21,7 +21,7 @@
     --background-colour: #000028;
     --background-colour-dark: #000028;
   }
-} */
+}
 
 
 
@@ -32,7 +32,7 @@
   */
   background-image: url(../images/cover-image-dark.png);
   --header-footer-title: #DB00FF;
-  --dark-text: #000028;
+  --main-title-color: #000028;
   --background-colour: #000028;
   --main-text-color: #F1B2CE;
   --main-title:#FF0070;

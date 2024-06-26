@@ -10,6 +10,10 @@
   background-attachment: fixed;
 }
 
+body {
+  margin: 0;
+}
+
 a:focus,
 button:focus {
   outline: none;
@@ -23,6 +27,7 @@ main {
   display: grid;
   grid-auto-flow: row;
   margin-bottom: 40px;
+  height: 100vh;
 }
 
 .header__rec-sign {
@@ -37,6 +42,7 @@ main {
   padding-right: 30px; 
 }
 
+
 .header__rec-sign::after {
   content: "";
   position: absolute;
@@ -50,6 +56,7 @@ main {
   background-color: var(--background-font);
   transform: translateY(-50%);
 }
+
 
 .header__rec-sign::before {
   content: "";
@@ -128,6 +135,7 @@ main {
   line-height: 23.4px;
   text-align: left;
   background-color: var(--background-font);
+  color: var(--main-title-color);
   margin: 0 10px 40px;
   max-width: 364px;
   justify-self: flex-end;
@@ -160,6 +168,7 @@ section {
   line-height: 23.4px;
   text-align: left;
   background-color: var(--background-font);
+  color: var(--main-title-color);
   margin: 20px 0;
 }
 
@@ -189,6 +198,7 @@ section {
   line-height: 23.4px;
   text-align: left;
   background-color: var(--background-font);
+  color: var(--main-title-color);
   margin: 10px 0;
 }
 
@@ -203,6 +213,7 @@ section {
   line-height: 23.4px;
   text-align: left;
   background-color: var(--background-font);
+  color: var(--main-title-color);
   margin-bottom: 20px;
 }
 
@@ -218,6 +229,7 @@ section {
   display: grid;
   height: 668px;
   background-color: var(--background-colour);
+  height: 100vh;
 }
 
 .no-focus_place_footer {
