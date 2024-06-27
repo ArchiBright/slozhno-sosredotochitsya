@@ -1,6 +1,10 @@
 /* :root {
   --main-font: 'IBM Plex Mono';
-  --article-font-color: #F1B2CE;
-  --background_font: #FF0070;
-  --background-colour: #000028;
+  --button-color:#FF0070;
+  --header-footer-title-color: #DB00FF;
+  --background-title-color: #FF0070;
+  --background-page-color: #000028;
+  --main-title-color: #000028;
+  --main-title-color-no-frame:#FF0070;
+  --main-text-color: #F1B2CE;
 } */

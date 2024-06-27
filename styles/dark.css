@@ -3,10 +3,10 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-@import url(./variables.css);
+/* @import url(./variables.css); */
 
 
-:root {
+/* :root {
   --main-font: 'IBM Plex Mono';
   --article-font-color: #F1B2CE;
   --background_font-bright: #FF8DCB;
@@ -21,7 +21,7 @@
     --background-colour: #000028;
     --background-colour-dark: #000028;
   }
-}
+} */
 
 
 
@@ -31,14 +31,18 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   background-image: url(../images/cover-image-dark.png);
-  --header-footer-title: #DB00FF;
-  --main-title-color: #000028;
-  --background-colour: #000028;
-  --main-text-color: #F1B2CE;
-  --main-title:#FF0070;
+  --main-font: 'IBM Plex Mono';
   --button-color:#FF0070;
-  --background-font: #FF0070;
+  --header-footer-title-color: #DB00FF;
+  --background-title-color: #FF0070;
+  --background-page-color: #000028;
+  --main-title-color: #000028;
+  --main-title-color-no-frame:#FF0070;
+  --main-text-color: #F1B2CE;
   .header .border-top {
     visibility: hidden;
+  }
+  .header__rec-sign {
+    visibility: visible;
   }
 }

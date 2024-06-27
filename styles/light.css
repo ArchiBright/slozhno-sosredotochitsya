@@ -4,22 +4,39 @@
   переключая тему
 */
 
-@import url(./variables.css);
+/* @import url(./variables.css); */
 
 :root {
+  background-image: url(../images/cover-image-light.png);
   --main-font: 'IBM Plex Mono';
-  --article-font-color: #F1B2CE;
-  --background_font-bright: #FF8DCB;
-  --background-colour: #FFF1F7;
+  --accent-color: #FF8DCB;
+  --button-color:#353430;
+  --header-footer-title-color: #FFC2E6;
+  --background-title-color: #FF8DCB;
+  --background-page-color: #FFF1F7;
+  --main-title-color: #353430;
+  --main-title-color-no-frame:#353430;
+  --main-text-color: #353430;
+  .header__rec-sign {
+    visibility: hidden;
+  }
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --header-footer-title: #FFC2E6;
+    background-image: url(../images/cover-image-light.png);
     --main-font: 'IBM Plex Mono';
-    --article-font-color: #F1B2CE;
-    --background_font-bright: #FF8DCB;
-    --backgroung-colour: #FFF1F7;
+    --accent-color: #FF8DCB;
+    --button-color:#353430;
+    --header-footer-title-color: #FFC2E6;
+    --background-title-color: #FF8DCB;
+    --background-page-color: #FFF1F7;
+    --main-title-color: #353430;
+    --main-title-color-no-frame:#353430;
+    --main-text-color: #353430;
+    .header__rec-sign {
+      visibility: hidden;
+    }
   }
 }
 
@@ -30,14 +47,15 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   background-image: url(../images/cover-image-light.png);
-  --header-footer-title: #FFC2E6;
+  --main-font: 'IBM Plex Mono';
   --accent-color: #FF8DCB;
-  --dark-text: #353430;
-  --main-text-color: #353430;
-  --main-title: #353430;
+  --button-color:#353430;
+  --header-footer-title-color: #FFC2E6;
+  --background-title-color: #FF8DCB;
+  --background-page-color: #FFF1F7;
   --main-title-color: #353430;
-  --button-color: #353430;
-  --background-font: #FF8DCB;
+  --main-title-color-no-frame:#353430;
+  --main-text-color: #353430;
   .header__rec-sign {
     visibility: hidden;
   }
