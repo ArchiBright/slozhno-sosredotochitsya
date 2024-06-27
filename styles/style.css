@@ -240,7 +240,7 @@ section {
 }
 
 .no-focus_place_footer {
-  justify-self: center;
+  align-self: center;
 }
 
 @media (width >= 768px) {
