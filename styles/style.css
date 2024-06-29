@@ -370,4 +370,9 @@ section {
   .section-three {
     margin-top: 61px;
   }
+
+  .no-focus_place_footer {
+    justify-self: center;
+    margin-top: 270px;
+  }
 }
