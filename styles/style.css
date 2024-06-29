@@ -332,6 +332,20 @@ section {
 }
 
 @media (width >= 1024px) {
+
+  .header__theme-menu {
+  }
+
+  .header__theme-menu-list {
+    margin: 0;
+    flex-direction: row;
+    justify-self: center;
+  }
+
+  .no-focus {
+    font-size: 157px;
+  }
+
   .header_title {
     max-width: 491px;
   }
@@ -343,9 +357,5 @@ section {
     gap: 20px;
   }
 
-  .header__theme-menu-list {
-    margin: 0;
-    flex-direction: row;
-    justify-content: center;
-  }
+
 }
