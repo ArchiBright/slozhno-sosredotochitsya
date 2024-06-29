@@ -110,7 +110,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin: 49px 0 0;
+  margin: 74px 0 0;
 }
 
 .header__theme-menu-item {
