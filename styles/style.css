@@ -31,7 +31,7 @@ main {
   margin-bottom: 40px;
   padding-bottom: 10px;
   grid-template-rows: 1fr;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .header__rec-sign {
