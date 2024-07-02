@@ -6,7 +6,7 @@
 
 /* @import url(./variables.css); */
 
-:root {
+/* :root {
   background-image: url(../images/cover-image-light.png);
   --main-font: 'IBM Plex Mono';
   --accent-color: #FF8DCB;
@@ -38,7 +38,7 @@
       visibility: hidden;
     }
   }
-}
+} */
 
 
 .page.theme_light {
