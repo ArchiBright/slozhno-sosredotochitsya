@@ -5,7 +5,7 @@
   /* margin: 0; */
   font-family: var(--main-font, sans-ferif);
   color: var(--);
-  /* padding: 0 10px; */
+  padding: 0 10px;
   background-image: url(../images/cover-image-dark.png);
   background-attachment: fixed;
 }
