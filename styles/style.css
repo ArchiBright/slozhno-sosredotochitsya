@@ -2,18 +2,12 @@
 
 .page {
   min-inline-size: 375px;
-  /* margin: 0; */
   font-family: var(--main-font, sans-ferif);
   color: var(--);
-  padding: 0 10px;
   background-image: url(../images/cover-image-dark.png);
   background-attachment: fixed;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
 
 a:focus,
 button:focus {
@@ -30,8 +24,8 @@ main {
   grid-auto-flow: row;
   margin-bottom: 40px;
   padding-bottom: 10px;
-  grid-template-rows: 1fr;
-  height: 100vh;
+  grid-template-rows: 1fr min-content 1fr;
+  height: 100vh - 50px;
 }
 
 .header__rec-sign {
