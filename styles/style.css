@@ -230,6 +230,7 @@ section {
 
 .footer {
   display: grid;
+  padding: 0 10px;
   background-color: var(--background-page-color);
   height: 100vh;
 }
@@ -239,16 +240,10 @@ section {
 }
 
 @media (width >= 768px) {
-  .page {
-    /* padding: 20px 20px; */
-  }
-
-  main {
-    /* padding: 10px 0; */
-  }
 
   .header {
     margin-bottom: 60px;
+    padding: 0 20px;
   }
 
   .header__rec-sign {
@@ -265,6 +260,10 @@ section {
 
   .header__title {
     margin-bottom: 138px;
+  }
+
+  section {
+    padding: 0 20px;
   }
 
   .section__article-title_no-top-margin {
@@ -327,6 +326,10 @@ section {
   .no-focus_place_footer {
     justify-self: center;
     margin-top: 315px;
+  }
+
+  .footer {
+    padding: 0 20px;
   }
 }
 
