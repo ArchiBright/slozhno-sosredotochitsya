@@ -263,6 +263,7 @@ section:last-child {
 
   .header {
     padding: 20px;
+    margin-bottom: 20px;
   }
 
   .header__rec-sign {
@@ -308,11 +309,11 @@ section:last-child {
   }
 
   .section__gallery {
-    margin-top: 20px;
+    margin: 20px 0 60px;
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 30% 41%;
+    grid-template-rows: 1fr 30 40%;
   }
 
   
@@ -348,7 +349,7 @@ section:last-child {
   }
 
   .footer {
-    padding: 0 20px;
+    padding: 20px;
   }
 }
 
