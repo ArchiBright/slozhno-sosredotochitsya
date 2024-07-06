@@ -1,7 +1,7 @@
 
 /* @import url(./variables.css); */
 
-:root {
+/* :root {
   background-image: url(../images/cover-image-light.png);
   --main-font: 'IBM Plex Mono';
   --accent-color: #FF8DCB;
@@ -15,7 +15,7 @@
   .header__rec-sign {
     visibility: hidden;
   }
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
