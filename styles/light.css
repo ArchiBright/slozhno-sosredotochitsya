@@ -1,22 +1,6 @@
 
 /* @import url(./variables.css); */
 
-/* :root {
-  background-image: url(../images/cover-image-light.png);
-  --main-font: 'IBM Plex Mono';
-  --accent-color: #FF8DCB;
-  --button-color:#353430;
-  --header-footer-title-color: #FFC2E6;
-  --background-title-color: #FF8DCB;
-  --background-page-color: #FFF1F7;
-  --main-title-color: #353430;
-  --main-title-color-no-frame:#353430;
-  --main-text-color: #353430;
-  .header__rec-sign {
-    visibility: hidden;
-  }
-} */
-
 @media (prefers-color-scheme: light) {
   :root {
     background-image: url(../images/cover-image-light.png);
