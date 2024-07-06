@@ -345,7 +345,6 @@ section:last-child {
 
   .no-focus_place_footer {
     justify-self: center;
-    margin-top: 315px;
   }
 
   .footer {
@@ -368,7 +367,10 @@ section:last-child {
 
   .no-focus {
     font-size: 157px;
-    margin-bottom: 129px;
+  }
+
+  .no-focus_place_header {
+    margin-bottom: 130px;
   }
 
   .header__title {
@@ -395,6 +397,5 @@ section:last-child {
 
   .no-focus_place_footer {
     justify-self: center;
-    margin-top: 270px;
   }
 }
