@@ -1,6 +1,6 @@
 :root {
   background-image: url(../images/cover-image-dark.png);
-  --main-font: "IBM Plex Mono";
+  --main-font: "IBM Plex Mono", "Arial", sans-serif;
   --button-color: #ff0070;
   --header-footer-title-color: #db00ff;
   --background-title-color: #ff0070;
