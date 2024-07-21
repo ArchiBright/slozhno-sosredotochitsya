@@ -3,11 +3,14 @@
 .page {
   min-inline-size: 375px;
   font-family: var(--main-font, sans-ferif);
-  color: var(--);
+  background-color: #000028;
   background-image: url(../images/cover-image-dark.png);
   background-attachment: fixed;
 }
 
+.page.theme_light {
+  background-color: #fff1f7;
+}
 
 a:focus,
 button:focus {
@@ -29,7 +32,7 @@ main {
 }
 
 .header__rec-sign {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
@@ -40,7 +43,6 @@ main {
   padding-right: 28px;
   top: 10px;
 }
-
 
 .header__rec-sign::after {
   content: "";
@@ -55,7 +57,6 @@ main {
   background-color: var(--background-title-color);
   transform: translateY(-50%);
 }
-
 
 .header__rec-sign::before {
   content: "";
@@ -93,15 +94,13 @@ main {
   align-self: flex-end;
 }
 
-
-
 .no-focus_place_header {
   margin: 65px 0 55px;
 }
 
 .no-focus {
-  color:var(--header-footer-title-color);
-  text-shadow: 4px 4px 0 #FF0070;
+  color: var(--header-footer-title-color);
+  text-shadow: 4px 4px 0 #ff0070;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: 700;
   line-height: 95.7px;
@@ -133,7 +132,7 @@ main {
 }
 
 .header__theme-menu-button_active {
-  border: solid 1px var(--button-color)
+  border: solid 1px var(--button-color);
 }
 
 .header__title {
@@ -151,10 +150,6 @@ main {
 ul {
   padding-left: 0;
 }
-
-
-
-
 
 section {
   margin: 0 0 50px;
@@ -199,12 +194,12 @@ section:last-child {
 }
 .section_article a {
   text-decoration: underline;
-  text-shadow: 0px 4px 4px #FF0070;
+  text-shadow: 0px 4px 4px #ff0070;
 }
 
 .section_tip_title a {
   text-decoration: none;
-  text-shadow: 0px 4px 4px #FF0070;
+  text-shadow: 0px 4px 4px #ff0070;
 }
 
 .section_tip_title {
@@ -238,8 +233,6 @@ section:last-child {
   margin-bottom: 10px;
 }
 
-
-
 .section__image {
   width: 100%;
   height: 100%;
@@ -260,7 +253,6 @@ section:last-child {
 }
 
 @media (width >= 768px) {
-
   .header {
     padding: 20px;
     margin-bottom: 20px;
@@ -300,7 +292,7 @@ section:last-child {
     width: 25%;
     margin-top: 59px;
   }
-  
+
   .section-three {
     display: grid;
     grid-template-columns: 32.5% 1fr;
@@ -315,8 +307,6 @@ section:last-child {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 30 40%;
   }
-
-  
 
   .item1 {
     grid-column: 1 / span 2;
@@ -353,7 +343,6 @@ section:last-child {
 }
 
 @media (width >= 1024px) {
-
   .header__theme-menu {
     justify-self: center;
     margin-bottom: 115px;
