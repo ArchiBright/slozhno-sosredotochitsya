@@ -188,10 +188,6 @@ section:last-child {
   margin: 20px 0 10px;
 }
 
-.section__article-title:first-child {
-  margin-top: 0;
-}
-
 .section_article {
   font-family: IBM Plex Mono;
   font-size: 18px;
@@ -290,6 +286,10 @@ section:last-child {
     padding: 0 20px;
   }
 
+  .section__article-title_no-top-margin {
+    margin-top: 0;
+  }
+
   .section-intro {
     display: grid;
     grid-template-columns: 32.5% 1fr;
@@ -298,7 +298,7 @@ section:last-child {
 
   .section__title_section-two {
     width: 25%;
-    margin: 59px 0 20px;
+    margin-top: 59px;
   }
   
   .section-tips {
