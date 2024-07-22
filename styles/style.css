@@ -172,6 +172,10 @@ section:last-child {
   margin: 20px 0 10px;
 }
 
+.section__tips .section__article-title {
+  margin: 20 0 0;
+}
+
 .section_article {
   font-family: var(--main-font);
   font-size: 18px;
