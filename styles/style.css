@@ -218,7 +218,7 @@ section:last-child {
   margin: 10px 0;
 }
 
-.section__tip-title-first-margin {
+.section_tip_title:first-child {
   margin-top: 20px;
 }
 
@@ -286,7 +286,11 @@ section:last-child {
     padding: 0 20px;
   }
 
-  .section__article-title_no-top-margin {
+  .section-two__list .section__article-title:first-child {
+    margin-top: 20px;
+  }
+
+  .section__article-title:first-child {
     margin-top: 0;
   }
 
