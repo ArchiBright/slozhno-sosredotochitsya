@@ -2,7 +2,7 @@
 
 .page {
   min-inline-size: 375px;
-  font-family: var(--main-font, sans-ferif);
+  font-family: var(--main-font);
   background-image: url(../images/cover-image-dark.png);
   background-attachment: fixed;
   background-color: #000028;
@@ -28,7 +28,7 @@ main {
 }
 
 .header__rec-sign {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: var(--main-font);
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
@@ -155,7 +155,7 @@ section:last-child {
 
 .section__title {
   color: var(--main-title-color-no-frame);
-  font-family: IBM Plex Mono;
+  font-family: var(--main-font);
   font-size: 18px;
   font-weight: 700;
   line-height: 23.4px;
@@ -173,7 +173,7 @@ section:last-child {
 }
 
 .section_article {
-  font-family: IBM Plex Mono;
+  font-family: var(--main-font);
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
@@ -191,7 +191,7 @@ a {
 }
 
 .section_tip_title {
-  font-family: IBM Plex Mono;
+  font-family: var(--main-font);
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
