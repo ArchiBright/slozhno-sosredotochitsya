@@ -1,13 +1,10 @@
 @import url(./variables.css);
 
-
-
 .page {
   min-inline-size: 375px;
   font-family: var(--main-font, sans-serif);
   background-image: var(--background-image);
   background-attachment: fixed;
-  /* background-color: #000028; */
 }
 
 a {
@@ -25,15 +22,12 @@ button:hover {
 }
 
 a:focus {
-  border: .5px solid var(--main-text-color);
-
+  border: 0.5px solid var(--main-text-color);
 }
 button:focus {
   border: none;
   border-bottom: 1px solid var(--button-color);
 }
-
-
 
 a:focus,
 button:focus {
@@ -52,8 +46,6 @@ main {
 .content {
   background-color: var(--background-page-color);
 }
-
-
 
 .header {
   display: grid;
@@ -235,7 +227,6 @@ section:last-child {
   color: var(--main-text-color);
   margin-bottom: 20px;
 }
-
 
 .section_tip_title {
   font-family: var(--main-font, sans-serif);
