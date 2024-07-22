@@ -165,7 +165,7 @@ section:last-child {
   margin-bottom: 40px;
 }
 
-.section-one {
+.section-intro {
   padding-top: 40px;
 }
 
@@ -290,7 +290,7 @@ section:last-child {
     margin-top: 0;
   }
 
-  .section-one {
+  .section-intro {
     display: grid;
     grid-template-columns: 32.5% 1fr;
     gap: 20px;
