@@ -13,6 +13,7 @@
     --main-title-color: #353430;
     --main-title-color-no-frame:#353430;
     --main-text-color: #353430;
+    --button-color-hover: rgba(53, 52, 48, 0.4);
     .header__rec-sign {
       visibility: hidden;
     }
@@ -31,6 +32,7 @@
   --main-title-color: #353430;
   --main-title-color-no-frame:#353430;
   --main-text-color: #353430;
+  --button-color-hover: rgba(53, 52, 48, 0.4);
   .header__rec-sign {
     visibility: hidden;
   }
