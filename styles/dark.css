@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: dark) {
   :root {
-    /* background-image: url(../images/cover-image-dark.png); */
+    --background-image: url(../images/cover-image-dark.png);
     --main-font: "IBM Plex Mono";
     --button-color: #ff0070;
     --header-footer-title-color: #db00ff;
@@ -9,9 +9,6 @@
     --main-title-color: #000028;
     --main-title-color-no-frame: #ff0070;
     --main-text-color: #f1b2ce;
-    .header .border-top {
-      visibility: hidden;
-    }
     .header__rec-sign {
       visibility: visible;
     }
@@ -28,9 +25,6 @@
   --main-title-color: #000028;
   --main-title-color-no-frame: #ff0070;
   --main-text-color: #f1b2ce;
-  .header .border-top {
-    visibility: hidden;
-  }
   .header__rec-sign {
     visibility: visible;
   }

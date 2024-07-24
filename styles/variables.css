@@ -7,9 +7,6 @@
   --main-title-color: #000028;
   --main-title-color-no-frame: #ff0070;
   --main-text-color: #f1b2ce;
-  .header .border-top {
-    visibility: hidden;
-  }
   .header__rec-sign {
     visibility: visible;
   }
