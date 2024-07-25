@@ -102,9 +102,6 @@ main {
   left: 10px;
 }
 
-.logo_place_header {
-}
-
 .logo {
   color: var(--header-footer-title-color);
   text-shadow: 4px 4px 0 #ff0070;
@@ -387,12 +384,10 @@ section:last-child {
     font-size: 157px;
   }
 
+
+
   .header__title {
     margin-top: 20px;
-  }
-
-
-  .header__title {
     max-width: 491px;
   }
 
