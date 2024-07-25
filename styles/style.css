@@ -167,7 +167,6 @@ ul {
 section {
   margin: 0 0 50px;
   padding: 0 10px;
-  /* background-color: var(--background-page-color); */
 }
 
 section:last-child {
@@ -310,6 +309,14 @@ section:last-child {
     display: grid;
     grid-template-columns: 32.5% 1fr;
     gap: 20px;
+  }
+
+  .section-intro .section__title {
+    margin-bottom: 0;
+  }
+
+  .section-tips .section__title {
+    margin-bottom: 0;
   }
 
   .section-intro .article:last-child {
