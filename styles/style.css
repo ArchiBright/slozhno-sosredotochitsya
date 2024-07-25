@@ -269,10 +269,6 @@ section:last-child {
     margin-bottom: 20px;
   }
 
-  .header__rec-sign {
-    top: 20px;
-  }
-
   .header__theme-menu-list {
     margin-top: 172px;
   }
@@ -301,6 +297,7 @@ section:last-child {
   }
 
   .header__rec-sign {
+    top: 20px;
     right: 48px;
   }
 
